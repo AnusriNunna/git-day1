@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sing up page</title>
+</head>
+<body>
+    <br>
+    <br>
+    <center><fieldset style="background-color: brown; width: fit-content;">
+        <legend align="center" style="background-color:cornsilk;"><h3>Sign In</h3></legend>
+    <form action="./login1.html">
+        
+            
+        <label for ="Fname">First Name:</label>
+        
+        <input type ="text" id="fname" pattern="[a-z A-Z]+" required>
+        <br><br>
+        <label for ="lname">Last Name:</label>
+        <input type="text" id="lname" pattern="[a-z A-Z]+" required>
+
+        <br><br>
+        <label for ="email">Email:</label>
+        <input type="text" id="email" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" required>
+        <br><br>
+        <label for="mobilenumber">Mobile Number:</label>
+        <input type="number" id="mobilenumber" pattern="[0-9]{10}" required>
+        <br><br>
+        <label for="password">Password</label>
+        <input type="password" id="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
+        <br>
+        <br>
+        <input type="submit" value="sign up">
+
+
+    </fieldset></center>
+
+
+    </form>
+    
+</body>
+</html>
